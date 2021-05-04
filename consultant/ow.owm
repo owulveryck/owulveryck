@@ -1,0 +1,17 @@
+title hello
+component O [0.65, 0.21]
+component L [0.35, 0.21]
+evolve L 0.40
+evolve O 0.40
+O->L
+component I  [0.65, 0.45]
+component V [0.35, 0.53]
+component i [0.51, 0.58] (buy) 
+component E [0.35, 0.63]
+component R [0.65, 0.71]
+I->V
+V->i 
+i->E
+E->R
+style wardley
+
